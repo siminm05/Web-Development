@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(220, 236, 245);
+}
+hr {
+    background-color: palegreen;
+    border: none;
+    height: 2px;
+}
