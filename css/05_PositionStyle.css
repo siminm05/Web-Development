@@ -1,0 +1,82 @@
+/* save this file as: PositionStyle.css */
+
+body {
+    background-color: pink;
+    margin: 0;
+}
+.red {
+    background-color: red;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    display: inline-block;
+}
+
+.yellow {
+    background-color: yellow;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+}
+
+.green {
+    background-color: green;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    left: 0px;
+}
+
+hr {
+    border-color: black;
+    border-style: dotted none none;
+    border-width: 3px;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    left: 0;
+}
+
+.h1 {
+    top: 130px;
+}
+
+.red2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left: 210px;
+    top: 350px;
+}
+
+.yellow2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    left: 110px;
+    top: 250px;
+
+}
+.green2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.h2 {
+    top: 470px;
+}
