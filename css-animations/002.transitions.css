@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Transitions</title>
+        <link rel="stylesheet" href="002.transitions.css">
+    </head>
+    <body>
+        <div class="box tran1"></div>
+        <!-- <div class="box tran2"></div> -->
+    </body>
+</html>
