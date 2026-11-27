@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px;
+    animation-duration: 4s;
+}
+
+.ani1 {
+    animation-name: myAnimation1;;
+}
+@keyframes myAnimation1 {
+    0% {background-color: white; left:0px; top:0px}
+    25% {background-color: red; left:300px; top:0px}
+    50% {background-color: green; left:300px; top:300px}
+    75% {background-color: blue; left:0px; top:300px}
+    100% {background-color: white; left:0px; top: 0px;}
+}
+
+.ani2 {
+    animation-name: myAnimation2;
+    animation-iteration-count: 2;
+    /* animation-iteration-count: infinite */
+    animation-delay: 4s;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-timing-function:
+        linear: same speed all the time; starts and stops at the same speed
+        ease-in: start-slow, end-fast
+        ease-out: start-fast, end-slow
+        ease-in-out: default; start-slow, end-slow 
+    */
+    animation-fill-mode: forwards;
+}
+/*  
+@keyframes myAnimation2 {
+    0% {background-color: white; left:0px; top:0px; border-radius: 0% 0% 0% 0%;}
+    25% {background-color: red; left:300px; top:0px; border-radius: 50% 0% 0% 0%;}
+    50% {background-color: green; left:300px; top:300px; border-radius: 50% 50% 0% 0%;}
+    75% {background-color: blue; left:0px; top:300px; border-radius: 50% 50% 50% 0%;}
+    100% {background-color: white; left:0px; top: 0px; border-radius: 50% 50% 50% 50%;}
+} */
+
+@keyframes myAnimation2 {
+    0% {background-color: white; border-radius: 0% 0% 0% 0%;}
+    25% {background-color: red; border-radius: 50% 0% 0% 0%;}
+    50% {background-color: green; border-radius: 50% 50% 0% 0%;}
+    75% {background-color: blue; border-radius: 50% 50% 50% 0%;}
+    100% {background-color: white; border-radius: 50% 50% 50% 50%;}
+}
