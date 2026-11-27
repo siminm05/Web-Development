@@ -1,11 +1,68 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>CSS Transitions</title>
-        <link rel="stylesheet" href="002.transitions.css">
-    </head>
-    <body>
-        <div class="box tran1"></div>
-        <!-- <div class="box tran2"></div> -->
-    </body>
-</html>
+body {
+    background-color: grey;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    /* transition-property: background-color, border-radius, transform; */
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-duration: 1s, 3s;  
+    different durations for background and border
+        1s to change the background color
+        3s to change the border radius
+    */
+    /* transition-delay: 2s; */
+    transition-timing-function: ease-in;
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+
+/* 
+    hover: hover over
+    active: click
+*/
+
+/* TRANSITIONAL PROPERTIES
+-properties that have an identifiable halfway point
+
+background-color
+background-position
+border-color
+border-width
+border-spacing
+bottom
+color
+font-size
+font-weight
+height left
+letter-spacing
+line-height
+margin
+max-height
+max-width
+min-height
+min-width
+opacity
+outline-color
+outline-offset
+outline-width
+padding right
+text-indent
+text-shadow
+top
+vertical-align
+visibility
+width
+word-spacing
+z-index
+*/
